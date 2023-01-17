@@ -1,0 +1,7 @@
+<h1>{{nombre}}</h1>
+
+<ul>
+    <li *ngFor="let user of users">
+        {{user.name | json}}
+    </li>
+</ul>
